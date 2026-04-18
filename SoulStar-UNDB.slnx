@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <Solution>
+=======
+﻿<Solution>
+>>>>>>> 1c0928e61fa31ab0b13ba22221869b4f0a2f9661
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
   <Project Path="Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj" />
