@@ -1,3 +1,0 @@
-﻿Link do github: https://github.com/Rui-Goncalves-II/todo-app-deploy
-
-link do Site em produção: https://todo-app-deploy-eight.vercel.app/
