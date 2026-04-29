@@ -68,11 +68,7 @@ MonoBehaviour:
     x: 1212
     y: 0
     width: 708
-<<<<<<< HEAD
-    height: 958
-=======
     height: 1073
->>>>>>> c1452c2 (adição de materiais novos)
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
@@ -305,7 +301,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 71
+    y: 0
     width: 1920
     height: 36
   m_SerializedDataModeController:
@@ -571,7 +567,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 742
+    y: 659
     width: 1211
     height: 412
   m_SerializedDataModeController:
@@ -598,11 +594,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-<<<<<<< HEAD
-    - Assets/Scenes
-=======
     - Assets/Scenes/_Material_Textures
->>>>>>> c1452c2 (adição de materiais novos)
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -621,27 +613,13 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 27}
     m_SelectedIDs:
-<<<<<<< HEAD
-    - m_Data: 46586
-    m_LastClickedID:
-      m_Data: 46586
-    m_ExpandedIDs:
-    - m_Data: 0
-    - m_Data: 46584
-    - m_Data: 46586
-    - m_Data: 46588
-    - m_Data: 46590
-=======
     - m_Data: 47128
     m_LastClickedID:
       m_Data: 47128
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 46690
-    - m_Data: 46692
->>>>>>> c1452c2 (adição de materiais novos)
-    - m_Data: 1000000000
-    - m_Data: 2147483647
+    - m_Data: 46914
+    - m_Data: 46916
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -674,15 +652,8 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-<<<<<<< HEAD
-    - m_Data: 46584
-    - m_Data: 46586
-    - m_Data: 46588
-    - m_Data: 46590
-=======
-    - m_Data: 46690
-    - m_Data: 46692
->>>>>>> c1452c2 (adição de materiais novos)
+    - m_Data: 46914
+    - m_Data: 46916
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -764,8 +735,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1212
-    y: 107
+    x: 1213
+    y: 24
     width: 707
     height: 1047
   m_SerializedDataModeController:
@@ -816,7 +787,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 107
+    y: 24
     width: 297
     height: 609
   m_SerializedDataModeController:
@@ -886,8 +857,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 298
-    y: 107
+    x: 299
+    y: 24
     width: 912
     height: 609
   m_SerializedDataModeController:
@@ -1404,15 +1375,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-<<<<<<< HEAD
-    m_Target: {x: -25.234505, y: 3.375894, z: -4.8883038}
-    speed: 2
-    m_Value: {x: -25.234505, y: 3.375894, z: -4.8883038}
-=======
-    m_Target: {x: -0.34562227, y: 3.9902494, z: 13.013158}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
     m_Value: {x: -0.34562227, y: 3.9902494, z: 13.013158}
->>>>>>> c1452c2 (adição de materiais novos)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1458,23 +1423,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-<<<<<<< HEAD
-    m_Target: {x: -0.028326849, y: -0.97111905, z: 0.15012158, w: -0.18324523}
-    speed: 2
-    m_Value: {x: -0.028326992, y: -0.971124, z: 0.15012234, w: -0.18324615}
-  m_Size:
-    m_Target: 23.096563
-    speed: 2
-    m_Value: 23.082552
-=======
-    m_Target: {x: 0.01855794, y: 0.9769499, z: -0.19002344, w: 0.09540199}
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
     speed: 2
     m_Value: {x: 0.018558072, y: 0.9769568, z: -0.19002478, w: 0.095402665}
   m_Size:
-    m_Target: 11.267162
+    m_Target: 10
     speed: 2
     m_Value: 11.267162
->>>>>>> c1452c2 (adição de materiais novos)
   m_Ortho:
     m_Target: 0
     speed: 2
