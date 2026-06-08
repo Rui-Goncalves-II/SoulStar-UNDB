@@ -199,7 +199,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4956107331459824951, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5384106773317259451, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
       propertyPath: m_LocalPosition.x
@@ -250,11 +250,33 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8889396261727243439, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
+      propertyPath: dadosAtual
+      value: 
+      objectReference: {fileID: 11400000, guid: 4762759e67c6a984c88f5087bbb13fb6, type: 2}
+    - target: {fileID: 8889396261727243439, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
+      propertyPath: painelQuiz
+      value: 
+      objectReference: {fileID: 690886908}
+    - target: {fileID: 8889396261727243439, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
       propertyPath: txtPergunta
       value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
+      objectReference: {fileID: 793593989}
+    - target: {fileID: 8889396261727243439, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
+      propertyPath: 'botoesOpcao.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1977687739}
+    - target: {fileID: 8889396261727243439, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
+      propertyPath: 'botoesOpcao.Array.data[1]'
+      value: 
+      objectReference: {fileID: 372649834}
+    - target: {fileID: 8889396261727243439, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
+      propertyPath: 'botoesOpcao.Array.data[2]'
+      value: 
+      objectReference: {fileID: 790046185}
+    m_RemovedComponents:
+    - {fileID: 4956107331459824951, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 1208271898658359072, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37d4892336c5ae04f86e1b8fc89c3b76, type: 3}
@@ -631,6 +653,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: edcb72c7cdb62098ba707bad354b1fa1, type: 3}
   m_PrefabInstance: {fileID: 274260016}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &372649834 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5824045952171148404, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+  m_PrefabInstance: {fileID: 1266996111}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &383275876
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1032,6 +1065,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a39cbb246926ba382beb08b5314d6d5a, type: 3}
+--- !u!1 &690886908 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3499855293751501671, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+  m_PrefabInstance: {fileID: 1266996111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &693442643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1369,6 +1407,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5f15fcdea7e0ee05ba6b110ea24a40b5, type: 3}
   m_PrefabInstance: {fileID: 737997173}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &790046185 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1252261197614658650, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+  m_PrefabInstance: {fileID: 1266996111}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+--- !u!114 &793593989 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2600268964110663428, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+  m_PrefabInstance: {fileID: 1266996111}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
 --- !u!1 &855952944
 GameObject:
   m_ObjectHideFlags: 0
@@ -2260,10 +2320,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2600268964110663428, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_text
-      value: "O que significa a palavra \"trapiche\"?\nA) Um tipo de embarca\xE7\xE3o
-        usada para transportar algod\xE3o\nB) Armaz\xE9ns constru\xEDdos perto do
-        cais para guardar mercadorias do porto \nC) Uma fortaleza militar constru\xEDda
-        para defender a cidade"
+      value: 'Para alterar as perguntas depois que clicar em play, Assets>QuizTrapiche. '
       objectReference: {fileID: 0}
     - target: {fileID: 2600268964110663428, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_Enabled
@@ -2271,7 +2328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2600268964110663428, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_fontSize
-      value: 28.5
+      value: 50.05
       objectReference: {fileID: 0}
     - target: {fileID: 2600268964110663428, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_margin.x
@@ -2296,6 +2353,22 @@ PrefabInstance:
     - target: {fileID: 2600268964110663428, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_HorizontalAlignment
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764957712669410528, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764957712669410528, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764957712669410528, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764957712669410528, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 3499855293751501671, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_Name
@@ -2385,9 +2458,41 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.6133728
       objectReference: {fileID: 0}
+    - target: {fileID: 5746518346961915912, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746518346961915912, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746518346961915912, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5746518346961915912, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
     - target: {fileID: 7460746969174911183, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
       propertyPath: m_CullTransparentMesh
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310470170656893721, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310470170656893721, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310470170656893721, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8310470170656893721, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3326,6 +3431,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1721ccc4f84d1643d97390a929c7e494, type: 3}
   m_PrefabInstance: {fileID: 1742626828}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1977687739 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8952652775204097988, guid: b03eadbdfcfed5f408d84a2815f6f522, type: 3}
+  m_PrefabInstance: {fileID: 1266996111}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1001 &1996202308
 PrefabInstance:
   m_ObjectHideFlags: 0
