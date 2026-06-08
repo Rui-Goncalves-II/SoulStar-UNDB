@@ -13,10 +13,13 @@ MonoBehaviour:
   m_Name: "S\xE9culo de Funda\xE7\xE3o"
   m_EditorClassIdentifier: Assembly-CSharp::PerguntasQuiz
   perguntas:
-  - enunciado: "Em que s\xE9culo foi fundado o Trapiche Santo \xC2ngelo?"
+  - enunciado: "O que significa a palavra \"trapiche\"? A) Um tipo de embarca\xE7\xE3o
+      usada para transportar algod\xE3o B) Armaz\xE9ns constru\xEDdos perto do cais
+      para guardar mercadorias do porto  C) Uma fortaleza militar constru\xEDda para
+      defender a cidade"
     opcoes:
     - "S\xE9culo XVII"
     - "S\xE9culo XIX"
     - "S\xE9culo XX"
-    indiceCorreto: 1
+    indiceCorreto: 2
   acertosNecessarios: 1
